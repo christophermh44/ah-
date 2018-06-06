@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ah!</title>
+  <style>
+    html, body {
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+    .video-wrapper {
+      display: inline-block;
+      height: 100vh;
+      vertical-align: top;
+      width: 100%;
+    }
+    .video-wrapper video {
+      cursor: pointer;
+      object-fit: cover;
+    }
+  </style>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <div class="video-wrapper">
+    <video src="ah.mp4" onclick="this.currentTime=0;this.play()"></video>
+  </div>
+</body>
+</html>
