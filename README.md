@@ -1,4 +1,4 @@
 # ah-
 Ah!
 
-[Ah!](https://services.c-mh.fr/ah)
+[Ah!](http://services.c-mh.fr/ah)
